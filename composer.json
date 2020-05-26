@@ -1,0 +1,36 @@
+{
+    "name": "pandorga/kb",
+    "description": "Knowledge Base for your Laravel Projects",
+    "keywords": ["laravel", "knowledge", "base", "kb", "faq", "frequently", "asked", "questions"],
+    "homepage": "https://github.com/pandorga/kb",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Ayala",
+            "email": "felix1262@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^5.7.15 | 5.8.* | ^6.0 | ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pandorga\\KB\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pandorga\\KB\\KBServiceProvider"
+            ],
+            "aliases": {
+                "KB": "Pandorga\\KB\\Facades\\KB"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
