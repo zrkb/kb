@@ -1,6 +1,6 @@
 <?php
 
-namespace Pandorga\KB;
+namespace Zero\KB;
 
 use Illuminate\Support\ServiceProvider;
 

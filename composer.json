@@ -1,8 +1,8 @@
 {
-    "name": "pandorga/kb",
+    "name": "zrkb/kb",
     "description": "Knowledge Base for your Laravel Projects",
     "keywords": ["laravel", "knowledge", "base", "kb", "faq", "frequently", "asked", "questions"],
-    "homepage": "https://github.com/pandorga/kb",
+    "homepage": "https://github.com/zrkb/kb",
     "license": "MIT",
     "authors": [
         {
@@ -12,20 +12,20 @@
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/support": "^5.7.15 | 5.8.* | ^6.0 | ^7.0"
+        "illuminate/support": "^5.7.15 | 5.8.* | ^6.0 | ^7.0 | ^8.0"
     },
     "autoload": {
         "psr-4": {
-            "Pandorga\\KB\\": "src"
+            "Zero\\KB\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pandorga\\KB\\KBServiceProvider"
+                "Zero\\KB\\KBServiceProvider"
             ],
             "aliases": {
-                "KB": "Pandorga\\KB\\Facades\\KB"
+                "KB": "Zero\\KB\\Facades\\KB"
             }
         }
     },

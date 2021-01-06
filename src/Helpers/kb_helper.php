@@ -1,10 +1,10 @@
 <?php
 
-use Pandorga\KB\KB;
+use Zero\KB\KB;
 
 if (! function_exists('kb')) {
     /**
-     * @return \Pandorga\KB\KB
+     * @return \Zero\KB\KB
      */
     function kb()
     {
